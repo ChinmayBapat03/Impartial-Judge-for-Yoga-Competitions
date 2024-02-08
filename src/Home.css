@@ -1,0 +1,118 @@
+.home {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: #000; */
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  /* mix-blend-mode: hard-light; */
+}
+
+.cover-img {
+  background-image: url("images/Yoga-Banner.jpeg.webp");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10%;
+  bottom: 0;
+  /* object-fit: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.back-img {
+  background-image: url("images/denys-churchyn-Kwmz_c_NiYk-unsplash.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.homeContent {
+  width: 100%;
+  height: max-content;
+  padding: 6rem 10rem 3rem;
+  display: flex;
+  row-gap: 3rem;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  z-index: 3;
+}
+
+.textDiv {
+  padding: 2rem, 0;
+}
+
+.homeTitle {
+  font-size: 4rem;
+  color: #000;
+}
+
+.title {
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.devs {
+  margin-top: 5%;
+  padding: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.dev-image {
+  position: relative;
+}
+
+.team-img {
+  padding-top: 20px;
+  width: 350px;
+  height: 400px;
+}
+
+.thumbnail {
+  background: transparent;
+  border: 0;
+}
+
+.thumbnail .caption {
+  padding: 10px 0 0 60px;
+  color: #fff;
+}
+
+.intro {
+  margin-top: 40%;
+  padding: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.intro-text {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}

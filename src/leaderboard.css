@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+:root{
+    --color-dark: #2C3131;
+    --color-light: #F3F3F2;
+}
+
+#main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 15%;
+}
+
+.leaderboard{
+    text-align: center;
+}
+.board {
+    text-align: center;
+}
+
+.board .leaderboard{
+    margin-bottom: 1em;
+}
+
+#profile{
+    /* display: flex; */
+
+    margin-top: 3em;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+#profile .flex .item{
+    display: flex;
+    align-items: center;
+}
+
+#profile .flex img{
+    width: 17%;
+    border-radius: 50%;
+}
+
+#profile .flex .info{
+    padding: 1em;
+}
+
+.text-dark{
+    color: var(--color-dark);
+}
+
+/* background image  */
+.board-bgimg{
+    background-image: url("images/img3.jpg");
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
