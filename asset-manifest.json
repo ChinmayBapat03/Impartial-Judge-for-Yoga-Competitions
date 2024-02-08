@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.703cf62b.css",
+    "main.js": "/Impartial-Judge-for-Yoga-Competitions/static/js/main.49c3d0ee.js",
+    "static/media/denys-churchyn-Kwmz_c_NiYk-unsplash.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/denys-churchyn-Kwmz_c_NiYk-unsplash.9832bdba3428303060b9.jpg",
+    "static/media/chinmay.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/chinmay.e1cff62ff947b540cf65.jpg",
+    "static/media/img1.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/img1.b3fe96a85fa0fea388d6.jpg",
+    "static/media/img3.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/img3.7e537ee27495ae7cd836.jpg",
+    "static/media/Yoga-Banner.jpeg.webp": "/Impartial-Judge-for-Yoga-Competitions/static/media/Yoga-Banner.jpeg.0a77bc65ecd8519457ef.webp",
+    "static/media/left-arrow.svg": "/Impartial-Judge-for-Yoga-Competitions/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
+    "static/media/right-arrow.svg": "/Impartial-Judge-for-Yoga-Competitions/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
+    "index.html": "/Impartial-Judge-for-Yoga-Competitions/index.html",
+    "main.703cf62b.css.map": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.703cf62b.css.map",
+    "main.49c3d0ee.js.map": "/Impartial-Judge-for-Yoga-Competitions/static/js/main.49c3d0ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.703cf62b.css",
+    "static/js/main.49c3d0ee.js"
+  ]
+}
