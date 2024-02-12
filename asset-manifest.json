@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.703cf62b.css",
+    "main.css": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.2a1dc6a0.css",
     "main.js": "/Impartial-Judge-for-Yoga-Competitions/static/js/main.49c3d0ee.js",
     "static/media/denys-churchyn-Kwmz_c_NiYk-unsplash.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/denys-churchyn-Kwmz_c_NiYk-unsplash.9832bdba3428303060b9.jpg",
     "static/media/chinmay.jpg": "/Impartial-Judge-for-Yoga-Competitions/static/media/chinmay.e1cff62ff947b540cf65.jpg",
@@ -10,11 +10,11 @@
     "static/media/left-arrow.svg": "/Impartial-Judge-for-Yoga-Competitions/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
     "static/media/right-arrow.svg": "/Impartial-Judge-for-Yoga-Competitions/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/Impartial-Judge-for-Yoga-Competitions/index.html",
-    "main.703cf62b.css.map": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.703cf62b.css.map",
+    "main.2a1dc6a0.css.map": "/Impartial-Judge-for-Yoga-Competitions/static/css/main.2a1dc6a0.css.map",
     "main.49c3d0ee.js.map": "/Impartial-Judge-for-Yoga-Competitions/static/js/main.49c3d0ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.703cf62b.css",
+    "static/css/main.2a1dc6a0.css",
     "static/js/main.49c3d0ee.js"
   ]
 }
