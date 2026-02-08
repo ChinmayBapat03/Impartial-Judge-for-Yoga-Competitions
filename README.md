@@ -1,75 +1,46 @@
-<<<<<<< HEAD
-# Impartial-Judge-for-Yoga-Competitions
-This project aims to reduce favouritism and partiality in the scoring of ancient Indian sports. As an example, I have taken Yoga. This problem persists especially in the rural areas that leads to wasted talent. Especially with multiple sports getting integrated in the Khelo India Games, doing this will boost the quality and competition of the sport
-=======
-# Getting Started with Create React App
+# 🧘‍♂️ Impartial Judge for Yoga Competitions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The **Impartial Judge for Yoga Competitions** project aims to reduce favoritism and subjectivity in the evaluation of Yoga performances by leveraging computer vision and machine learning. The solution focuses on enabling **fair, consistent, and unbiased scoring**, particularly in **rural competitive events**, where access to expert judges is limited.
 
-## Available Scripts
+With multiple traditional sports being promoted under initiatives such as **Khelo India**, this system helps improve the quality, transparency, and competitiveness of Yoga as a competitive sport.
 
-In the project directory, you can run:
+## Problem Statement
+Manual judging of Yoga postures often suffers from:
+- Human bias and favoritism  
+- Inconsistent scoring standards  
+- Limited availability of trained judges in rural areas  
 
-### `npm start`
+These challenges can result in **missed talent and unfair outcomes**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Solution
+This project introduces an **AI-based posture evaluation system** that:
+- Analyzes Yoga poses using image-based classification techniques  
+- Compares postures against predefined standards  
+- Provides objective and repeatable assessments  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The system is designed to be **portable, low-cost, and deployable on edge devices**, making it suitable for on-site competitions.
 
-### `npm test`
+## Key Features
+- Automated Yoga posture evaluation using image classification  
+- Objective and consistent scoring mechanism  
+- Edge deployment for real-time analysis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Stack
+- **Computer Vision**: Mediapipe libary, TensorFlow, Keras  
+- **Edge Computing**: Raspberry Pi  
+- **Data & Integration**: Firebase  
+- **Frontend (UI to display results)**: React.js  
 
-### `npm run build`
+## Impact
+- Promotes fairness and transparency in competitive Yoga  
+- Reduces dependency on manual judgment  
+- Encourages talent identification at grassroots levels  
+- Supports scalable adoption in national sports initiatives  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> e277fcf (first commit)
+## Future Enhancements
+- Support for additional Yoga poses and sports  
+- Real-time feedback and scoring visualization
+- Accuracy benchmarking with expert-annotated datasets  
+- Multi-camera support for improved posture detection
+- Hardware Cost optimization.
