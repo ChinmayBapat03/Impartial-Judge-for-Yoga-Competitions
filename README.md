@@ -21,6 +21,9 @@ This project introduces an **AI-based posture evaluation system** that:
 
 The system is designed to be **portable, low-cost, and deployable on edge devices**, making it suitable for on-site competitions.
 
+## Raspberry Pi Code
+Sensitive code for building the **YogaNet** model used for pose classification and evaluation functions for those poses are **intentionally not published to the repository**. The frontend receives the judgement (captured image, detected pose and score) from firebase which is published there by the raspberry pi after grading is done.
+
 ## Key Features
 - Automated Yoga posture evaluation using image classification  
 - Objective and consistent scoring mechanism  
@@ -30,7 +33,7 @@ The system is designed to be **portable, low-cost, and deployable on edge device
 - **Computer Vision**: Mediapipe libary, TensorFlow, Keras  
 - **Edge Computing**: Raspberry Pi  
 - **Data & Integration**: Firebase  
-- **Frontend (UI to display results)**: React.js  
+- **Frontend (UI to display results)**: React.js
 
 ## Impact
 - Promotes fairness and transparency in competitive Yoga  

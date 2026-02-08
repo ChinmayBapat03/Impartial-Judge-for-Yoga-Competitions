@@ -4,25 +4,6 @@ import { Col, Button, Row, Container, Card, Form } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const Login = () => {
-//   const navigate = useNavigate();
-//   const [username, setUsername] = useState("");
-//   const [password, setPassword] = useState("");
-  // const [authenticated, setAuthenticated] = useState(
-  //   localStorage.getItem(localStorage.getItem("authenticated") || false)
-  // );
-
-  // const users = [{ username: "test", password: "test" }];
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const account = users.find((user) => user.username === username);
-    // if (account && account.password === password) {
-    //   setAuthenticated(true);
-    //   localStorage.setItem("authenticated", true);
-    //   navigate("/Dashboard");
-    // }
-  // };
-  // const [user, setUser] = useState("")
   return (
     <div>
       <div className="reg-log-bgimg"></div>

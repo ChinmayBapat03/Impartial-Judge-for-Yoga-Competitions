@@ -2,18 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, get } from 'firebase/database';
 import SimpleImageSlider from 'react-simple-image-slider';
+import { firebaseConfig } from './config/firebase';
 import './Live.css';
-
-const firebaseConfig = {
-    apiKey: 'AIzaSyCYvJdOYjfVGJIoG54knk4EzZQiwHhp2_o',
-    authDomain: 'impartial-yoga-judge.firebaseapp.com',
-    databaseURL: 'https://impartial-yoga-judge-default-rtdb.asia-southeast1.firebasedatabase.app',
-    projectId: 'impartial-yoga-judge',
-    storageBucket: 'impartial-yoga-judge.appspot.com',
-    messagingSenderId: '536862871367',
-    appId: '1:536862871367:web:76cf64fe205631216e0662',
-    measurementId: 'G-PY9XW5QD8E',
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -71,7 +61,7 @@ const Live = () => {
                         images={imageData.map(([_, imageUrl]) => ({ url: imageUrl }))}
                         currentIndex={selectedImageIndex}
                         showBullets={false}
-                        showNavs={true} // Turn off default navigation arrows
+                        showNavs={true}
                         loop={false} />
                     <div className='scoreContainer'>
                         <div className="custom-nav">
